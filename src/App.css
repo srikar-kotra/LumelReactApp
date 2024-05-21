@@ -1,0 +1,41 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid red;
+  padding: 8px;
+}
+
+th {
+  background-color: yellowgreen;
+}
+
+tr {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+}
+
+input {
+  width: 50px;
+}
+
+.InputControls {
+  display: flex;
+  align-items: center;
+}
+
+.InputControls button {
+  margin: 0 5px;
+}
